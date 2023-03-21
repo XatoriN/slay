@@ -1,4 +1,4 @@
-local Aiming = loadstring(game:HttpGet("https://raw.githubusercontent.com/z4veb/slay/main/side.lua"))()
+local Aiming = loadstring(game:HttpGet("https://raw.githubusercontent.com/z4veb/slay/main/side"))()
 Aiming.TeamCheck(false)
 
 local Workspace = game:GetService("Workspace")
