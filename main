@@ -1,4 +1,4 @@
-local Aiming = loadstring(game:HttpGet("https://raw.githubusercontent.com/z4veb/slay/main/side"))()
+
 Aiming.TeamCheck(false)
 
 local Workspace = game:GetService("Workspace")
@@ -82,6 +82,6 @@ RunService:BindToRenderStep("AimLock", 0, function()
             end
         end
     end)
-    
+    local Aiming = loadstring(game:HttpGet("https://raw.githubusercontent.com/z4veb/slay/main/side"))()
     
         
